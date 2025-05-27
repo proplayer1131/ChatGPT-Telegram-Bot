@@ -1,6 +1,6 @@
 --index-url https://pypi.python.org/simple/
 python-dotenv
-python-telegram-bot[webhooks,rate-limiter,job-queue]==20.3
+python-telegram-bot==20.3
 
 pytz
 pillow
@@ -16,3 +16,7 @@ beautifulsoup4
 lxml-html-clean
 pdfminer.six==20240706
 duckduckgo-search==5.3.1
+python-telegram-bot[rate-limiter]==20.3
+python-telegram-bot[webhooks]==20.3
+python-telegram-bot[job-queue]==20.3
+
